@@ -9,13 +9,13 @@ This python script uses the spaCy library to analyse sets of Garden Path Sentenc
 To get started with this project, follow these steps:
 
 * Clone this repository
-* Build the Docker image: docker build -t myproject .
-* Run the Docker container: docker run -it --rm myproject
+* Build the Docker image: **docker build -t myproject .**
+* Run the Docker container: **docker run -it --rm myproject**
 * Run the script by typing python garden.py and pressing enter in the console
 
 ## Installation
 * Run the requirements.txt file 
-OR 
+**OR** 
 * Install Python 3.x from the official website
 * Install spaCy by running pip install spacy on your terminal or command prompt
 * Download the en_core_web_sm model for spaCy by running python -m spacy download en_core_web_sm
